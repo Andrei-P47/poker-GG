@@ -1,0 +1,16 @@
+button {
+    background:
+            linear-gradient(90deg, #FF56A4, #6224CD) padding-box,
+            linear-gradient(90deg, #6224CD, #FF56A4) border-box;
+    box-shadow: 0 0 20px 7px #FF56A4;
+    border: 10px solid transparent;
+    border-radius: 24px;
+    padding: 15px 20px; /* Exemplu de spațiu interior pentru buton */
+}
+
+button span {
+    line-height: 1.25rem;
+    color: white;
+    font-weight: 800;
+    height: auto;
+}

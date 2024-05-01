@@ -1,0 +1,45 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/ethnocentric');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #07011D;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lalezar {
+    font-family: "Lalezar", system-ui;
+}
+
+.orbitron {
+   font-family: "Orbitron", sans-serif;
+}
+
+.ethnocentric {
+     font-family: 'Ethnocentric Rg', sans-serif;
+}
+
+.welcomeBonus_background {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeBonus_background::before {
+    content: "";
+    background-image: url("../public/Honeycombe_Hex_Pattern_Background_Gradient3.png");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.25;
+}
