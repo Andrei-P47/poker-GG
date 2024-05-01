@@ -1,15 +1,11 @@
 import React from "react";
 
-import background from "Honeycombe_Hex_Pattern_Background_Gradient3.png";
 import { ButtonGradient } from "../index";
 
 function WelcomeBonus() {
   return (
     <div
       className="flex flex-row relative  mt-[-36px] welcomeBonus_background"
-      // style={{
-      //   backgroundImage: `url(/Honeycombe_Hex_Pattern_Background_Gradient3.png)`,
-      // }}
     >
       <div className="flex flex-col items-center lalezar px-10 z-20">
         <span className="text-[#FF18CC] text-[110px] leading-[172px] items-center">
